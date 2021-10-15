@@ -54,7 +54,7 @@ export default function CategoryCard({catData, modal=false}) {
                             <div className="img-container"><img src={catData.urlImg} alt="" /></div>
                         </div>
                         <div className="plate-details-title">
-                            <h2 className="main-title">{catData.name}</h2>
+                            <h2 className="main-title-product">{catData.name}</h2>
                             <h3 className="card-price">{catData.price} €</h3>
                             <p className="modal-description">{catData.description}</p>
                         </div>
